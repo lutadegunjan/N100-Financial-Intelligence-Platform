@@ -1,370 +1,215 @@
-\# N100 Financial Intelligence Platform
+# 📈 N100 Financial Intelligence Platform
 
+An end-to-end Financial Analytics Platform built using Python and SQL to analyze Nifty 100 companies through automated ETL pipelines, financial ratio analysis, stock screening, peer comparison, and visualization.
 
+---
 
-An end-to-end financial analytics platform built to analyze Nifty 100 companies using automated data pipelines, financial ratios, scoring models, stock screening, peer comparison, and visualization.
+# Project Overview
 
+This project automates the complete financial analysis workflow for Nifty 100 companies.
 
+It includes:
 
-\## Project Overview
+- ETL Pipeline
+- SQLite Database
+- Data Validation
+- Financial Ratio Engine
+- Financial Scoring
+- Stock Screening
+- Peer Comparison
+- Radar Charts
+- Automated Reports
 
+---
 
+# Tech Stack
 
-The N100 Financial Intelligence Platform transforms raw financial datasets into actionable investment insights through data engineering and analytics workflows.
+### Programming
+- Python
+- SQL
 
+### Libraries
+- Pandas
+- NumPy
+- Matplotlib
+- OpenPyXL
+- PyYAML
 
+### Database
+- SQLite
 
-The platform performs:
+---
 
+# System Architecture
 
+![Architecture](assets/screenshots/architecture.png)
 
-\- Data ingestion and cleaning
+---
 
-\- Database creation and management
+# Features
 
-\- Data quality validation
+## ETL Pipeline
 
-\- Financial ratio computation
+- Data Loading
+- Cleaning
+- Normalization
+- Database Population
 
-\- Company financial scoring
+---
 
-\- Stock screening
+## Financial Ratio Engine
 
-\- Peer comparison analysis
+Calculates:
 
-\- Financial visualization and reporting
+- ROE
+- ROCE
+- ROA
+- Net Profit Margin
+- Revenue CAGR
+- PAT CAGR
 
+---
 
+## Financial Scoring
 
-\---
+Ranks companies using multiple financial metrics.
 
+### Sample Output
 
+![Financial Score](assets/screenshots/top_score.png)
 
-\## Tech Stack
+---
 
+## Stock Screening
 
+Supports custom screening using:
 
-\### Programming
+- ROE
+- Debt Equity
+- CAGR
+- Profitability
+- Valuation
 
-\- Python
+### Sample Output
 
-\- SQL
+![Screening](assets/screenshots/screener.png)
 
+---
 
+## Peer Comparison
 
-\### Libraries
+Compares a company against industry peers.
 
-\- Pandas
+### Sample Output
 
-\- NumPy
+![Peer Comparison](assets/screenshots/peer.png)
 
-\- Matplotlib
+---
 
-\- OpenPyXL
+## Radar Charts
 
-\- PyYAML
+Visual comparison of company financial strength.
 
+### Example
 
+![Radar Chart](assets/screenshots/radar.png)
 
-\### Database
+---
 
-\- SQLite
+# Generated Outputs
 
+The project automatically generates:
 
+- Financial Scorecards
+- Screening Reports
+- Peer Comparison Reports
+- Radar Charts
+- Excel Reports
+- Data Quality Reports
 
-\### Analytics
+---
 
-\- Financial Ratio Analysis
+# Folder Structure
 
-\- Screening Engine
+```
+src/
+analytics/
+etl/
+screener/
+reports/
+output/
+db/
+tests/
+```
 
-\- Peer Benchmarking
+---
 
-\- Data Quality Checks
+# How to Run
 
+Clone repository
 
+```bash
+git clone https://github.com/lutadegunjan/N100-Financial-Intelligence-Platform.git
+```
 
-\---
+Install dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
+Run Validation
 
-\# System Architecture
+```bash
+python src/run_validation.py
+```
 
+Run Financial Scoring
 
+```bash
+python src/financial_score.py
+```
 
-\---
+Run Stock Screener
 
+```bash
+python src/screener/screens.py
+```
 
+Generate Peer Comparison
 
-\# Key Features
+```bash
+python src/analytics/peer.py
+```
 
+Generate Radar Charts
 
+```bash
+python src/analytics/radar_chart.py
+```
 
-\## 1. ETL Pipeline
+---
 
+# Skills Demonstrated
 
+- Python
+- SQL
+- ETL Development
+- Data Engineering
+- Financial Analytics
+- Data Validation
+- Data Visualization
+- Business Intelligence
+- Reporting Automation
 
-\- Automated loading of financial datasets
+---
 
-\- Data normalization
+# Author
 
-\- Schema validation
-
-\- Database population
-
-
-
-\## 2. Data Quality Framework
-
-
-
-Implemented validation checks:
-
-
-
-\- Missing value detection
-
-\- Schema validation
-
-\- Data consistency checks
-
-\- Audit reporting
-
-
-
-Output:
-
-
-
-\---
-
-
-
-\## 3. Financial Ratio Engine
-
-
-
-Calculates important company metrics:
-
-
-
-\- Profitability ratios
-
-\- Return ratios
-
-\- Growth metrics
-
-\- Leverage indicators
-
-\- Efficiency metrics
-
-
-
-Examples:
-
-
-
-\- Net Profit Margin
-
-\- ROE
-
-\- ROCE
-
-\- ROA
-
-\- Revenue CAGR
-
-\- PAT CAGR
-
-
-
-\---
-
-
-
-\## 4. Financial Scoring Model
-
-
-
-Generates company rankings based on financial performance.
-
-
-
-Output:
-
-
-
-\---
-
-
-
-\## 5. Stock Screening Engine
-
-
-
-Custom screening framework using financial parameters:
-
-
-
-Examples:
-
-
-
-\- ROE filters
-
-\- Debt-to-equity limits
-
-\- Growth requirements
-
-\- Profitability criteria
-
-\- Valuation filters
-
-
-
-Outputs:
-
-
-
-\---
-
-
-
-\## 6. Peer Comparison Engine
-
-
-
-Compares companies against sector peers.
-
-
-
-Generated reports:
-
-
-
-\---
-
-
-
-\## 7. Financial Visualization
-
-
-
-Generated analytical charts:
-
-
-
-\- Financial score distribution
-
-\- Top company rankings
-
-\- Company radar charts
-
-
-
-Location:
-
-
-
-\---
-
-
-
-\# Project Structure
-
-
-
-\---
-
-
-
-\# How To Run
-
-
-
-Clone repository:
-
-
-
-Install dependencies:
-
-
-
-Run validation:
-
-
-
-Run analytics modules:
-
-
-
-\---
-
-
-
-\# Project Outputs
-
-
-
-Generated reports include:
-
-
-
-\- Financial scorecards
-
-\- Screening results
-
-\- Peer comparison reports
-
-\- Radar charts
-
-\- Data quality reports
-
-
-
-\---
-
-
-
-\# Skills Demonstrated
-
-
-
-\- Python Data Analytics
-
-\- SQL Database Management
-
-\- ETL Development
-
-\- Financial Analysis
-
-\- Data Validation
-
-\- Business Intelligence
-
-\- Reporting Automation
-
-\- Data Visualization
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-Gunjan Lutade
-
-
+**Gunjan Lutade**
 
 GitHub:
-
 https://github.com/lutadegunjan
 
-
-
-
-
+LinkedIn:
+https://www.linkedin.com/in/gunjan-lutade-67029b22a/
