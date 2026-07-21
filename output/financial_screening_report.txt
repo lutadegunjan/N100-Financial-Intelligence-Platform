@@ -1,0 +1,27 @@
+N100 FINANCIAL INTELLIGENCE PLATFORM
+Financial Screening Report
+==================================================
+
+TOP RANKED COMPANIES
+------------------------------
+1. Trent Ltd - Score: 90
+2. Eicher Motors Ltd - Score: 90
+3. Maruti Suzuki India Ltd - Score: 90
+4. Oil & Natural Gas Corpn Ltd - Score: 90
+5. Asian Paints Indian Multi-National Paint and Coating Manufacturing Company - Score: 85
+6. LTIMindtree Ltd - Score: 85
+7. Dr Reddys Laboratories Ltd - Score: 80
+8. Samvardhana Motherson International Ltd - Score: 80
+9. Bharat Electronics Ltd - Score: 80
+10. Bosch Ltd - Score: 75
+
+
+PEER COMPARISON SUMMARY
+------------------------------
+return_on_equity_pct: Company=36.30776794493609, N100 Average=122.62768808327812
+debt_to_equity: Company=0.4309, N100 Average=1.7874097826086957
+revenue_cagr_5yr: Company=33.93602929650476, N100 Average=13.144376500203006
+pat_cagr_5yr: Company=76.37074131332167, N100 Average=19.955780376953467
+pe_ratio: Company=8.65, N100 Average=43.80822222222222
+pb_ratio: Company=11.82, N100 Average=7.559111111111112
+dividend_yield_pct: Company=3.46, N100 Average=2.3302222222222224

@@ -1,0 +1,16 @@
+venv/
+.env
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated files
+*.zip
+project_tree.txt
+
+# Database files
+db/*.db
+
+# Logs
+logs/
