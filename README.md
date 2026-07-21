@@ -1,34 +1,36 @@
 # 📈 N100 Financial Intelligence Platform
 
-An end-to-end Financial Analytics Platform built using Python and SQL to analyze Nifty 100 companies through automated ETL pipelines, financial ratio analysis, stock screening, peer comparison, and visualization.
+An end-to-end Financial Analytics Platform built using Python and SQLite to analyze Nifty 100 companies through automated ETL pipelines, financial ratio analysis, company scoring, stock screening, peer comparison, and visualization.
 
 ---
 
-# Project Overview
+## 🚀 Project Overview
 
-This project automates the complete financial analysis workflow for Nifty 100 companies.
+The **N100 Financial Intelligence Platform** automates the complete financial analytics workflow for Nifty 100 companies. It transforms raw financial datasets into actionable investment insights using Python-based data engineering and analytics.
 
-It includes:
+### The platform includes:
 
-- ETL Pipeline
-- SQLite Database
-- Data Validation
-- Financial Ratio Engine
-- Financial Scoring
-- Stock Screening
-- Peer Comparison
-- Radar Charts
-- Automated Reports
+- 📥 ETL Pipeline
+- 🗄 SQLite Database
+- ✅ Data Validation Framework
+- 📊 Financial Ratio Engine
+- ⭐ Financial Scoring Model
+- 🔍 Stock Screening Engine
+- 🤝 Peer Comparison Engine
+- 📈 Radar Chart Visualization
+- 📄 Automated Reporting
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
-### Programming
+### Programming Languages
+
 - Python
 - SQL
 
 ### Libraries
+
 - Pandas
 - NumPy
 - Matplotlib
@@ -36,30 +38,47 @@ It includes:
 - PyYAML
 
 ### Database
+
 - SQLite
 
 ---
 
-# System Architecture
+# 📂 Project Structure
 
-![Architecture](assets/screenshots/architecture.png)
-
----
-
-# Features
-
-## ETL Pipeline
-
-- Data Loading
-- Cleaning
-- Normalization
-- Database Population
+![Project Structure](assets/screenshots/01_project_structure.png)
 
 ---
 
-## Financial Ratio Engine
+# ⚙ ETL Pipeline
 
-Calculates:
+The ETL pipeline automatically:
+
+- Loads Excel datasets
+- Cleans and normalizes data
+- Performs validation
+- Loads data into SQLite
+- Generates audit reports
+
+![ETL Pipeline](assets/screenshots/02_etl_pipeline.png)
+
+---
+
+# ✅ Data Validation Framework
+
+Validation includes:
+
+- Missing value detection
+- Schema validation
+- Data consistency checks
+- Quality report generation
+
+![Data Validation](assets/screenshots/03_data_validation.png)
+
+---
+
+# 📊 Financial Ratio Engine
+
+The platform computes important financial metrics including:
 
 - ROE
 - ROCE
@@ -67,58 +86,64 @@ Calculates:
 - Net Profit Margin
 - Revenue CAGR
 - PAT CAGR
+- Operating Margin
 
 ---
 
-## Financial Scoring
+# ⭐ Financial Scoring Model
 
-Ranks companies using multiple financial metrics.
+Ranks companies based on multiple financial metrics and generates scorecards.
 
-### Sample Output
-
-![Financial Score](assets/screenshots/top_score.png)
+![Financial Scorecard](assets/screenshots/04_financial_scorecard.png.png)
 
 ---
 
-## Stock Screening
+# 🔍 Stock Screening Engine
 
-Supports custom screening using:
+Supports custom investment screening using filters such as:
 
 - ROE
-- Debt Equity
-- CAGR
+- Debt-to-Equity
+- Revenue Growth
 - Profitability
 - Valuation
+- Market Capitalization
 
-### Sample Output
+Generated outputs include:
 
-![Screening](assets/screenshots/screener.png)
-
----
-
-## Peer Comparison
-
-Compares a company against industry peers.
-
-### Sample Output
-
-![Peer Comparison](assets/screenshots/peer.png)
+- Value Screen
+- Dividend Screen
+- Quality Growth Screen
 
 ---
 
-## Radar Charts
+# 🤝 Peer Comparison
 
-Visual comparison of company financial strength.
+Compares companies against industry peers using important financial metrics.
 
-### Example
+Generated Outputs:
 
-![Radar Chart](assets/screenshots/radar.png)
+- CSV Reports
+- Excel Reports
+
+![Peer Comparison](assets/screenshots/05_peer_comparison.png)
 
 ---
 
-# Generated Outputs
+# 📈 Visualizations
 
 The project automatically generates:
+
+- Financial Score Distribution
+- Top Financial Score Charts
+- Company Radar Charts
+- Peer Comparison Reports
+
+---
+
+# 📁 Output Files
+
+Generated automatically:
 
 - Financial Scorecards
 - Screening Reports
@@ -126,27 +151,37 @@ The project automatically generates:
 - Radar Charts
 - Excel Reports
 - Data Quality Reports
+- CSV Reports
 
 ---
 
-# Folder Structure
+# 📂 Folder Structure
 
 ```
-src/
-analytics/
-etl/
-screener/
-reports/
-output/
-db/
-tests/
+N100 Financial Intelligence Platform
+│
+├── Data Sets
+├── Supporting datasets
+├── db
+├── output
+├── reports
+├── src
+│   ├── analytics
+│   ├── etl
+│   ├── screener
+│   └── utils
+├── tests
+├── assets
+│   └── screenshots
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-# How to Run
+# ▶ How to Run
 
-Clone repository
+Clone the repository
 
 ```bash
 git clone https://github.com/lutadegunjan/N100-Financial-Intelligence-Platform.git
@@ -158,13 +193,13 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run Validation
+Run Data Validation
 
 ```bash
 python src/run_validation.py
 ```
 
-Run Financial Scoring
+Generate Financial Scores
 
 ```bash
 python src/financial_score.py
@@ -190,26 +225,31 @@ python src/analytics/radar_chart.py
 
 ---
 
-# Skills Demonstrated
+# 💼 Skills Demonstrated
 
-- Python
+- Python Programming
 - SQL
 - ETL Development
 - Data Engineering
 - Financial Analytics
-- Data Validation
-- Data Visualization
 - Business Intelligence
+- Data Validation
 - Reporting Automation
+- Data Visualization
+- SQLite Database Design
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Gunjan Lutade**
 
-GitHub:
-https://github.com/lutadegunjan
+📧 Email: lutadegunjan@gmail.com
 
-LinkedIn:
-https://www.linkedin.com/in/gunjan-lutade-67029b22a/
+🔗 LinkedIn: https://www.linkedin.com/in/gunjan-lutade-67029b22a/
+
+💻 GitHub: https://github.com/lutadegunjan
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
